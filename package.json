@@ -1,0 +1,18 @@
+{
+    "name": "supermarket_knex",
+    "version": "1.0.0",
+    "description": "A project database for a mexican supermarket using knex.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js"
+    },
+    "dependencies": {
+      "dotenv": "^10.0.0",
+      "express": "^4.17.1",
+      "knex": "^0.21.15",
+      "pg": "^8.7.1",
+      "nodemon": "^2.0.14"
+    }
+  }
+  
